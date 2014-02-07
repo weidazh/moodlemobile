@@ -1,0 +1,22 @@
+<div class="panel-container">
+    <br />
+
+    <p><strong><%= MM.lang.s("name") %>:</strong> <%= MM.util.formatText(assignment.name) %></p>
+
+    <p><strong><%= MM.lang.s("allowsubmissionsfromdate") %>:</strong> <%= MM.util.timestampToUserDate(assignment.allowsubmissionsfromdate) %></p>
+
+    <p><strong><%= MM.lang.s("cutoffdate") %>:</strong> <%= MM.util.timestampToUserDate(assignment.cutoffdate) %></p>
+
+    <p><strong><%= MM.lang.s("duedate") %>:</strong> <%= MM.util.timestampToUserDate(assignment.duedate) %></p>
+
+    <p><strong><%= MM.lang.s("teamsubmission") %>:</strong> <%= MM.util.intToYesNo(assignment.teamsubmission) %></p>
+
+    <p><strong><%= MM.lang.s("requireallteammemberssubmit") %>:</strong> <%= MM.util.intToYesNo(assignment.requireallteammemberssubmit) %></p>
+
+    <p><strong><%= MM.lang.s("maxattempts") %>:</strong> <%= assignment.maxattempts %></p>
+
+    <p id = "assignments-submissions"><strong>Submissions:</strong>
+        <div class="loading-icon"><img src="img/loadingblack.gif"></div>
+    </p>
+
+</div>
