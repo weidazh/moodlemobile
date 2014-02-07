@@ -1,0 +1,7 @@
+<ul class="nav nav-v">
+<% $.each(assignments, function(index, assignment) { %>
+    <li class="nav-item">
+            <a href="#assignments/show/<%= index %>" class="menu1 touch-row"><%= MM.util.formatText(assignment.name) %></a>
+    </li>
+<% }); %>
+</ul>
