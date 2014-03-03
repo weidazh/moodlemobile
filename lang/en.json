@@ -108,6 +108,8 @@
 "networkerror": "Network not reachable",
 "networkerrormsg": "Network not enabled or not working.",
 "no": "No",
+"nosubmissions": "There are no submissions for this assignment",
+"nopermissionviewsubmissions": "You don't have permission for view submissions for this assignment",
 "notaskstobesynchronized": "No tasks to be synchronized",
 "noteadded": "Note added",
 "notifications": "Notifications",

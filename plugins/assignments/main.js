@@ -77,6 +77,16 @@ define(templates, function (assignmentsTpl, assignmentTpl) {
                 params,
                 function(r) {
                     console.log(r);
+                    if (r.assignments[0].submissions.length > 0) {
+
+                    } else if (r.warnings.length > 0) {
+                        var code = r.warnings[0].warningcode;
+                        if (code == "3") {
+                            $("#assignments-submissions").html(MM.lang.s("nosubmissions"));
+                        } else if (code == "1") {
+                            $("#assignments-submissions").html(MM.lang.s("nopermissionviewsubmissions"));
+                        }
+                    }
                 },
                 null,
                 function(r) {
