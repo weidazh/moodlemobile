@@ -158,7 +158,7 @@
 "siteurlrequired": "Site URL required, i.e <i>http://www.yourmoodlesite.abc or https://www.yourmoodlesite.efg</i>", // TODO
 "spaceusage": "已使用空间",
 "stop": "停止",
-"strings": "字符串", // TODO
+"strings": "Strings",
 "synchronization": "同步",
 "takephoto": "拍摄", // TODO
 "takepicture": "照相机",
