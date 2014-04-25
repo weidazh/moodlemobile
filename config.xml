@@ -14,6 +14,7 @@
         Juan Leyva
     </author>
 
+    <access origin="*" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/network"/>
     <!-- The following phonegap camera feature block Google Play to install the app on Nexus 7.
