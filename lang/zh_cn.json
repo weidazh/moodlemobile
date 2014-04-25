@@ -60,14 +60,14 @@
 "enabledebugging": "允许调试",
 "enablerdebugger": "允许远程调试",
 "enablenotifications": "允许消息通知",
-"enablenotificationscheck": "<p>您应该首先检查您的Moodle站点是否支持手机推送消息，详情请查阅文档</p>", // TODO
-"enablenotificationswarning": "<p>In order to enable notifications we need to store information like your mobile device model and  operating system in the Moodle site.</p>", // TODO
+"enablenotificationscheck": "<p>您应该首先检查您的Moodle站点是否支持手机推送消息，详情请查阅文档</p>",
+"enablenotificationswarning": "<p>In order to enable notifications we need to store information like your mobile device model and  operating system in the Moodle site.</p>",
 "error": "错误",
 "errorcamera": "访问摄像头发生错误",
 "errorcameramsg": "此设备不支持摄像头",
 "errorcapturingvideo": "访问视频发生错误",
 "errorregisteringdeviceinmoodle": "在Moodle中注册设备时发生错误",
-"errorduringdevicetokenrequesttoapns": "内部错误", // TODO "Error during device token request to APNS",
+"errorduringdevicetokenrequesttoapns": "内部错误",
 "erroruploading": "上传出错",
 "estimatedfreespace": "估计可用空间",
 "filename": "文件名",
@@ -84,7 +84,7 @@
 "help": "帮助",
 "helpmelogin": "<p>In order to log in, please verify that:</p>1. The Moodle site is version 2.4 or above.<br />2. The Moodle site administrator has enabled Mobile access.<br /><br /><p>To test the app in a Moodle demo site type <i>teacher</i> or <i>student</i> in the <i>Username</i> field and click the <b>Add button</b>.</p><p><a href='http://docs.moodle.org/en/Mobile_app' target='_blank'>Visit the Moodle documentation site for more detailed information and help.</a></p>",
 "icantlogin": "无法登入",
-"imagestored": "您的照片已保存", // TODO
+"imagestored": "您的照片已保存",
 "info": "信息",
 "initializing": "正在初始化...",
 "invalidaccount": "账户不正确",
@@ -96,9 +96,9 @@
 "license": "许可",
 "loadcordovaemulator": "加载Cordova模拟器",
 "loading": "正在加载",
-"lostconnection": "连接断开", // TODO
+"lostconnection": "连接断开",
 "location": "位置",
-"localpath": "Local path", // TODO
+"localpath": "Local path",
 "logout": "登出",
 "message": "消息",
 "messagesent": "已发送",
@@ -115,8 +115,8 @@
 "notifications": "消息推送",
 "notificationsenabled": "为所有课程启用消息推送",
 "notificationsdisabled": "禁用消息推送",
-"notificationpreferencesnotconfigured": "Your mobile notification preferences are not yet configured. To do this log into your Moodle site using a web browser and go to the Messaging settings under your user profile.", // TODO
-"notificationshowtoenable": "", // TODO
+"notificationpreferencesnotconfigured": "Your mobile notification preferences are not yet configured. To do this log into your Moodle site using a web browser and go to the Messaging settings under your user profile.",
+"notificationshowtoenable": "",
 "notificationsnotsupported": "Android 暂时不支持消息推送",
 "offlinemode": "离线模式",
 "ok": "确定",
@@ -130,13 +130,13 @@
 "preview": "预览",
 "purgecaches": "清楚缓存",
 "rdebuggingenabledfor": "Remote debugging will be enabled during the following seconds: ",
-"record": "录制", // TODO
+"record": "录制",
 "recordstored": "您的录音已经保存",
 "recordaudio": "录音",
-"remotesystemnotconfiguredfornotifications": "The Moodle installation is not configured for sending mobile notifications. Please contact your Moodle administrator if you think notifications should be enabled.", // TODO
+"remotesystemnotconfiguredfornotifications": "The Moodle installation is not configured for sending mobile notifications. Please contact your Moodle administrator if you think notifications should be enabled.",
 "replay": "重放",
 "reportabug": "报告错误",
-"reportbuginfo": "Tap on the email button for sending a bug report via email<br /> <br /> <b>Don't forget to write a detailed description of the problem in the email body</b><br /> <br />Note that some debugging information will be attached (not private information)", // TODO
+"reportbuginfo": "Tap on the email button for sending a bug report via email<br /> <br /> <b>Don't forget to write a detailed description of the problem in the email body</b><br /> <br />Note that some debugging information will be attached (not private information)",
 "requiredfields": "必须填写所有标记为必填的项目",
 "resetapp": "重置应用程序",
 "save": "保存",
@@ -155,12 +155,12 @@
 "sites": "站点",
 "siteurl": "站点URL",
 "siteurllabel": "站点 URL",
-"siteurlrequired": "Site URL required, i.e <i>http://www.yourmoodlesite.abc or https://www.yourmoodlesite.efg</i>", // TODO
+"siteurlrequired": "Site URL required, i.e <i>http://www.yourmoodlesite.abc or https://www.yourmoodlesite.efg</i>",
 "spaceusage": "已使用空间",
 "stop": "停止",
 "strings": "Strings",
 "synchronization": "同步",
-"takephoto": "拍摄", // TODO
+"takephoto": "拍摄",
 "takepicture": "照相机",
 "taskqueue": "人物队列",
 "therearentnotificationsyet": "没有新消息",
